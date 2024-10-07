@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Videos.css"; // Include the CSS for styling and animations
 import d1 from "./../../assets/Events/fresher.jpg";
-import d2 from "./../../assets/Events/Agni.jpeg";
+import d2 from "./../../assets/Events/Agni.jpg";
 import d3 from "./../../assets/Events/Techofes.jpg";
 
 const imagesData = [
