@@ -1,0 +1,91 @@
+/* Center the title */
+.gallery-title {
+  font-size: 3rem; /* Adjust font size as needed */
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f3f1f1;
+  font-weight: bold;
+  letter-spacing: 2px; /* Adds spacing between letters */
+}
+.images-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Optional: Vertically centers the content */
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  perspective: 1000px; /* Required for 3D effect */
+}
+
+.image-card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d; /* Enables 3D rotation */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+  text-align: center;
+}
+
+.image-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-button {
+  background-color: #00d5ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: none;
+}
+
+.show-video .video-iframe {
+  display: block;
+}
+
+.image-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  z-index: 2;
+}

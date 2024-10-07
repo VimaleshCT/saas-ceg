@@ -1,0 +1,120 @@
+.contact-us-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #0d0d0d;
+  padding-right: 4px;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.us-highlight {
+  color: #22ffcb; /* Attractive color for 'Us' */
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(34, 255, 218, 0.7); /* Glitter effect */
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.map-container {
+  flex: 1;
+  margin-right: 1rem;
+  width: 1000px;
+}
+
+.contact-details {
+  flex: 1;
+  background-color: #101010;
+  padding: 1rem;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.details-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #eaeaea;
+}
+
+.contact-item {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-form {
+  background-color: #565555;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: left;
+  width: 1000px;
+  height: 500px;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #f0efef;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #070707;
+  border-radius: 5px;
+  background-color: #222;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  box-shadow: 0 0 10px rgba(34, 218, 255, 0.7);
+  transform: scale(1.05); /* Slightly increase size on focus */
+  outline: none;
+  background-color: #333;
+}
+
+.submit-button {
+  background-color: #22daff;
+  color: #84b0b9;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #19e3e6; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly increase the button size */
+  box-shadow: 0 0 10px rgba(0, 150, 255, 0.5); /* Add a glow effect */
+}
+
+.submit-button:active {
+  transform: scale(0.95); /* Slightly decrease the button size on click */
+  box-shadow: none; /* Remove glow effect when clicked */
+}
