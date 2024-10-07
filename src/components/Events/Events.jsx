@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Events.css"; // Include the required CSS here
 
+
 const eventsData = [
   {
     id: 1,

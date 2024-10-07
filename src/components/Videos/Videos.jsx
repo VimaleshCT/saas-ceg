@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Videos.css"; // Include the CSS for styling and animations
+import d1 from "./../../assets/Events/fresher.jpg";
 
 const imagesData = [
   {
     id: 1,
-    src: "./../../assets/Events/fresher.jpg", // Replace with your image URLs
+    src: d1, // Replace with your image URLs
     videoId: "qpHwxhxc5Qc", // Replace with your YouTube video IDs
     name: "Fresher's Day", // Event name
   },
