@@ -1,23 +1,25 @@
 import React, { useState } from "react";
 import "./Videos.css"; // Include the CSS for styling and animations
 import d1 from "./../../assets/Events/fresher.jpg";
+import d2 from "./../../assets/Events/Agni.jpeg";
+import d3 from "./../../assets/Events/Techofes.jpg";
 
 const imagesData = [
   {
     id: 1,
-    src: d1, // Replace with your image URLs
+    img: d1, // Replace with your image URLs
     videoId: "qpHwxhxc5Qc", // Replace with your YouTube video IDs
     name: "Fresher's Day", // Event name
   },
   {
     id: 2,
-    src: "./../../assets/Events/Agni.jpeg", // Replace with your image URLs
+    img: d2, // Replace with your image URLs
     videoId: "pAe-Mtt_VyY", // Replace with your YouTube video IDs
     name: "Agni", // Event name
   },
   {
     id: 3,
-    src: "./../../assets/Events/Techofes.jpg", // Replace with your image URLs
+    img: d3, // Replace with your image URLs
     videoId: "Z7zIM7vLFgw", // Replace with your YouTube video IDs
     name: "Techofes", // Event name
   },
