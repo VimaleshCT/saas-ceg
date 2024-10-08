@@ -1,6 +1,6 @@
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import "./Header.css";
-import logo from "../../assets/logo.png";
+import logo from "../../../public/static/assets/logo.png";
 import Button from "../Button";
 import { useState } from "react";
 import { Link as Li } from "react-scroll";

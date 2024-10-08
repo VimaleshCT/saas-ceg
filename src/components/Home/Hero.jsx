@@ -1,4 +1,4 @@
-import curve from "../../assets/hero/curve.png";
+import curve from "../../../public/static/assets/hero/curve.png";
 // import robot from "../../assets/hero/banner.jpg"; //
 import Button from "../Button";
 import Section from "../Section";
