@@ -1,22 +1,25 @@
 import React, { useState } from "react";
 import "./Videos.css"; // Include the CSS for styling and animations
+import freshersImage from "../../../public/static/assets/Events/freshers.jpg";
+import agniImage from "../../../public/static/assets/Events/Agni.jpg";
+import techofesImage from "../../../public/static/assets/Events/Techofes.jpg";
 
 const imagesData = [
   {
     id: 1,
-    src: "../../../public/static/assets/Events/freshers.jpg", // Replace with your image URLs
+    img: freshersImage, // Replace with your image URLs
     videoId: "qpHwxhxc5Qc", // Replace with your YouTube video IDs
     name: "Fresher's Day", // Event name
   },
   {
     id: 2,
-    src: "../../../public/static/assets/Events/Agni.jpg", // Replace with your image URLs
+    img: agniImage, // Replace with your image URLs
     videoId: "pAe-Mtt_VyY", // Replace with your YouTube video IDs
     name: "Agni", // Event name
   },
   {
     id: 3,
-    src: "../../../public/static/assets/Events/Techofes.jpg", // Replace with your image URLs
+    img: techofesImage, // Replace with your image URLs
     videoId: "Z7zIM7vLFgw", // Replace with your YouTube video IDs
     name: "Techofes", // Event name
   },

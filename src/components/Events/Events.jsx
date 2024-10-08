@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import "./Events.css"; 
-import freshersImage from './../../assets/Events/Freshers.jpg';
-import agniImage from './../../assets/Events/agni.jpeg';
-import techofesImage from './../../assets/Events/techofes.jpeg';
-
+import "./Events.css";
+import freshersImage from "../../../public/static/assets/Events/Freshers.jpg";
+import agniImage from "../../../public/static/assets/Events/agni.jpeg";
+import techofesImage from "../../../public/static/assets/Events/techofes.jpeg";
 
 const eventsData = [
   {
@@ -28,7 +27,6 @@ const eventsData = [
       "A dream doesn’t become reality through magic; it takes determination and hard work. An astonishing and promising annual event of our renowned institution is TECHOFES, South-India’s Biggest Cultural Fest. We are successfully stepping into the 76th edition of Techofes. The grand fest is a multitude of events, workshops and shows, primarily focusing on providing a rostrum for creativity and soulful talents.",
   },
 ];
-
 
 const EventCard = ({ event }) => {
   const [hovered, setHovered] = useState(false);
