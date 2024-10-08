@@ -67,7 +67,7 @@ const Videos = () => {
           >
             <div className="image-title">{image.name}</div> {/* Event title */}
             <img
-              src={image.src}
+              src={image.img}
               alt={`Image ${image.id}`}
               className="image"
             />{" "}
