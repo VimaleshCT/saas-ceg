@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Videos.css"; // Include the CSS for styling and animations
-import freshersImage from "../../../public/static/assets/Events/freshers.jpeg";
+import freshersImage from "../../../public/static/assets/Events/fresher.jpg";
 import agniImage from "../../../public/static/assets/Events/Agni.jpg";
 import techofesImage from "../../../public/static/assets/Events/Techofes.jpg";
 
