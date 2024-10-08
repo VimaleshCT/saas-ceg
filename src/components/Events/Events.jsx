@@ -32,31 +32,29 @@ const EventCard = ({ event }) => {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <>
-      <section id="events">
-        <div
-          className="event-card"
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
-        >
-          <div className={`event-image-container ${hovered ? "rotate" : ""}`}>
-            {hovered ? (
-              <div className="event-info">
-                <h3>{event.name}</h3>
-                <p>{event.description}</p>
-              </div>
-            ) : (
-              <img
-                src={event.imageUrl}
-                alt={event.name}
-                className="event-image"
-              />
-            )}
-            {!hovered && <div className="event-title">{event.name}</div>}
-          </div>
+    <section id="events">
+      <div
+        className="event-card"
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+      >
+        <div className={`event-image-container ${hovered ? "rotate" : ""}`}>
+          {hovered ? (
+            <div className="event-info">
+              <h3>{event.name}</h3>
+              <p>{event.description}</p>
+            </div>
+          ) : (
+            <img
+              src={event.imageUrl}
+              alt={event.name}
+              className="event-image"
+            />
+          )}
+          {!hovered && <div className="event-title">{event.name}</div>}
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

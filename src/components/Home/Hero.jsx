@@ -45,7 +45,6 @@ const Hero = () => {
                 />
               </span>
             </h1>
-
             <p
               style={{
                 animation: "fade-up 1.5s ease-in-out forwards",

@@ -1,8 +1,8 @@
+/* Base Styles (unchanged) */
 .contact-us-container {
   text-align: center;
   padding: 2rem;
   background-color: #0d0d0d;
-  padding-right: 4px;
 }
 
 .contact-title {
@@ -11,7 +11,7 @@
 }
 
 .us-highlight {
-  color: #22ffcb; /* Attractive color for 'Us' */
+  color: #22ffcb;
   font-weight: bold;
   text-shadow: 2px 2px 5px rgba(34, 255, 218, 0.7); /* Glitter effect */
 }
@@ -26,7 +26,7 @@
 .map-container {
   flex: 1;
   margin-right: 1rem;
-  width: 1000px;
+  width: 100%;
 }
 
 .contact-details {
@@ -58,8 +58,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
   text-align: left;
-  width: 1000px;
-  height: 500px;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
 }
 
 .form-title {
@@ -117,4 +118,70 @@
 .submit-button:active {
   transform: scale(0.95); /* Slightly decrease the button size on click */
   box-shadow: none; /* Remove glow effect when clicked */
+}
+
+/* Mobile Responsive Styling */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column; /* Stack map and details vertically */
+    align-items: center;
+  }
+
+  .map-container,
+  .contact-details {
+    margin-right: 0;
+    margin-bottom: 2rem; /* Add margin for better spacing */
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-title {
+    font-size: 2rem; /* Reduce title size for smaller screens */
+  }
+
+  .form-title {
+    font-size: 1.3rem;
+  }
+
+  .submit-button {
+    font-size: 18px;
+  }
+}
+
+/* For mobile screens (phones) */
+@media (max-width: 480px) {
+  .contact-title {
+    font-size: 1.8rem; /* Further reduce title size */
+  }
+
+  .us-highlight {
+    font-size: 1.6rem;
+  }
+
+  .contact-details {
+    padding: 0.5rem;
+  }
+
+  .form-title {
+    font-size: 1.2rem; /* Reduce form title size */
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.5rem;
+  }
+
+  .submit-button {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+
+  .map-container iframe {
+    height: 300px; /* Adjust map height for mobile */
+  }
 }
