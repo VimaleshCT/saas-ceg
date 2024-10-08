@@ -11,4 +11,3 @@ export const benefits = [
     imageUrl: background,
   }
 ];
-

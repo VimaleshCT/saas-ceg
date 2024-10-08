@@ -1,4 +1,4 @@
-import { background } from "../../assets";
+import { background } from "../../../public/static/assets";
 
 export const Rings = () => {
   return (
