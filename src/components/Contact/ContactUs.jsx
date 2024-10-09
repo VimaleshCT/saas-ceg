@@ -9,11 +9,10 @@ const ContactUs = () => {
           Contact <span className="us-highlight">Us</span>
         </h1>
         <div className="contact-content">
-          <div className="map-container">
+          <div className="map-container w-full h-64 sm:h-80 md:h-96 lg:h-[450px]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.8453655503242!2d80.23493748810208!3d13.01136300609664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267bd5b04ad03%3A0x69b07dae4de00e30!2sSAAS%20CEG!5e0!3m2!1sen!2sin!4v1678982627551!5m2!1sen!2sin"
-              width="600"
-              height="450"
+              class="w-full h-full border-0"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"

@@ -6,14 +6,13 @@ const Benefits = () => {
     <Section id="features">
       <div className="container relative z-2">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {/* Responsive grid setup */}
+          <div className="grid grid-cols-1 gap-6">
             {benefits.map((item) => (
               <div
                 className="relative p-0.5 bg-cover"
                 style={{
                   backgroundImage: `url(${item.backgroundUrl})`,
-                  width: "300%", // Set width to 50%
-                  height: "120%", // Set height to 50%
                 }}
                 key={item.id}
               >
@@ -30,16 +29,13 @@ const Benefits = () => {
                   className="absolute inset-0.5 bg-n-8"
                   style={{ clipPath: "url(#benefits)" }}
                 >
+                  {/* Image container adjusted for responsiveness */}
                   <div className="absolute inset-0 opacity-90 transition-opacity hover:opacity-10">
                     {item.imageUrl && (
                       <img
                         src={item.imageUrl}
                         alt={item.title}
                         className="w-full h-full object-cover"
-                        style={{
-                          width: "350%", // Adjust image width to 50%
-                          height: "100%", // Adjust image height to 50%
-                        }}
                       />
                     )}
                   </div>
