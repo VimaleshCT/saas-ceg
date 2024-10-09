@@ -147,7 +147,7 @@ const Merchandise = () => {
     },
     {
       img: download15,
-      name: "Karhick Selvan",
+      name: "Karthick Selvan",
       position: "Logistics",
       instagramLink: "https://instagram.com/dracareys_",
       linkedinLink: "https://www.linkedin.com/in/karthick-selvan-424489201",
@@ -163,7 +163,7 @@ const Merchandise = () => {
       img: download17,
       name: "Arul Manisha A",
       position: "HR & Hospitality",
-      instagramLink: "https://instagram.com/example1",
+      instagramLink: "https://instagram.com/arulmanishaaaron ",
       linkedinLink: "https://linkedin.com/in/example1",
     },
     {
