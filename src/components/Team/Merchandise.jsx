@@ -205,7 +205,7 @@ const Merchandise = () => {
     },
     {
       img: download23,
-      name: "Sanakaranarayanan S",
+      name: "Sankaranarayanan S",
       position: "Contents",
       instagramLink: "https://instagram.com/_s_a_n_k_a_r_2003",
       linkedinLink: "https://linkedin.com/in/example1",
