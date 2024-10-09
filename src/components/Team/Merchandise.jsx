@@ -126,8 +126,9 @@ const Merchandise = () => {
       img: download12,
       name: "AlexPandiyan B",
       position: "Events,Workshops & Carnivals",
-      instagramLink: "https://instagram.com/example1",
-      linkedinLink: "https://linkedin.com/in/example1",
+      instagramLink:
+        "https://www.instagram.com/a_l_e_x_p_a_n_d_i_y_a_n/profilecard/?igsh=bzMyNmJieDl3MjJu",
+      linkedinLink: "https://in.linkedin.com/in/alex-sakthi-27210625b",
     },
     {
       img: download13,
