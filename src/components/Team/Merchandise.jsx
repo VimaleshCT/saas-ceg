@@ -183,10 +183,10 @@ const Merchandise = () => {
     },
     {
       img: download20,
-      name: "Ajay Raj Agarwal",
+      name: "Ajay Raj Agarwal S",
       position: "Marketing",
       instagramLink: "https://instagram.com/sara_aju23",
-      linkedinLink: "https://linkedin.com/in/example1",
+      linkedinLink: "https://www.linkedin.com/in/ajay-raj-agarwal-59aa09254/",
     },
     {
       img: download21,
