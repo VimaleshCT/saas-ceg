@@ -235,7 +235,7 @@ const Merchandise = () => {
       img: download27,
       name: "Sujatha M",
       position: "Graphical Design",
-      instagramLink: "https://instagram.com/sujatha_11741",
+      instagramLink: "https://instagram.com/sujatha_1174",
       linkedinLink: "https://www.linkedin.com/in/sujatha-m-088b61279",
     },
     {
