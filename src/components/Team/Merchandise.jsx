@@ -178,7 +178,7 @@ const Merchandise = () => {
       img: download19,
       name: "Sathishkumar",
       position: "HR & Hospitality",
-      instagramLink: "https://instagram.com/example1",
+      instagramLink: "https://instagram.com/___sk_the_smartzz___",
       linkedinLink: "https://linkedin.com/in/example1",
     },
     {
@@ -243,7 +243,7 @@ const Merchandise = () => {
       name: "DineshRaja D",
       position: "Permissions & Documentation",
       instagramLink: "https://instagram.com/mr_dinesh_deva",
-      linkedinLink: "https://www.linkedin.com/in/dinesh-raja-73ab32290",
+      linkedinLink: "https://www.linkedin.com/in/dineshraja-d-73ab32290",
     },
   ];
 
