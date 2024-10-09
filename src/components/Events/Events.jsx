@@ -24,7 +24,7 @@ const eventsData = [
     name: "Techofes",
     imageUrl: techofesImage, // Use the imported image object
     description:
-      "A dream doesn’t become reality through magic; it takes determination and hard work. An astonishing and promising annual event of our renowned institution is TECHOFES, South-India’s Biggest Cultural Fest. We are successfully stepping into the 76th edition of Techofes. The grand fest is a multitude of events, workshops and shows, primarily focusing on providing a rostrum for creativity and soulful talents.",
+      "A dream doesn’t become reality through magic; it takes determination and hard work. An astonishing and promising annual event of our renowned institution is TECHOFES, South-India’s Biggest Cultural Fest. We are successfully stepping into the 77th edition of Techofes. The grand fest is a multitude of events, workshops and shows, primarily focusing on providing a rostrum for creativity and soulful talents.",
   },
 ];
 
