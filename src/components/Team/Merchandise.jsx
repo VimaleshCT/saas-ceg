@@ -178,7 +178,7 @@ const Merchandise = () => {
       img: download19,
       name: "Sathishkumar",
       position: "HR & Hospitality",
-      instagramLink: "https://instagram.com/___sk_the_smartzz___",
+      instagramLink: "https://www.instagram.com/____sk_the_smartzz____",
       linkedinLink: "https://linkedin.com/in/example1",
     },
     {
