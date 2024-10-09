@@ -40,7 +40,7 @@ const ContactUs = () => {
               <strong>Phone:</strong> +91 9444315017
             </p>
             <p className="contact-item">
-              <strong>Email:</strong> cr.saas2024@gmail.com
+              <strong>Email:</strong> corporaterelations@saasceg.in
             </p>
             <br></br>
             <p className="contact-item">
