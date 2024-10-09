@@ -7,7 +7,7 @@ import techofesImage from "../../../public/static/assets/Events/techofes.jpeg";
 const eventsData = [
   {
     id: 1,
-    name: "Fresher's day",
+    name: "Freshers' day",
     imageUrl: freshersImage, // Use the imported image object
     description:
       "A first step in a journey filled with excitement, learnings and possibilities SAAS organises an annual event to welcome and create a warm and friendly environment for the freshers. The event besides providing a platform to showcase their talent also serves as an opportunity to meet and interact with their peers and seniors.",
