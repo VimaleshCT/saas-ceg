@@ -32,7 +32,7 @@ const Hero = () => {
                 />
               </span>
             </h1> */}
-            <h1 className="h1 mb-6 font-bold text-6xl text-indigo-600 h1-animate">
+            <h1 className="h1 mb-6 font-bold md:text-6xl sm:text-5xl text-4xl text-indigo-600 h1-animate">
               Students Association and Arts Society of{" "}
               <span className="inline-block relative text-orange-500 h1-ceg">
                 CEG{" "}

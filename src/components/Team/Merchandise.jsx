@@ -260,7 +260,7 @@ const Merchandise = () => {
         >
           Meet Our Team
         </h1>
-        <div className="flex flex-col md:flex-row flex-wrap justify-around gap-10 items-center w-[90%] mx-auto min-h-[500px] px-10 mb-20 bk text-white md:mt-5 py-10">
+        <div className="flex flex-col md:flex-row flex-wrap justify-around gap-10 items-center w-[90%] mx-auto min-h-[500px] lg:px-10 mb-20 bk text-white md:mt-5 py-10">
           {teamMembers.map((member, index) => (
             <ThreeDCardDemo
               key={index}
