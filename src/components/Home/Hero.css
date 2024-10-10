@@ -144,3 +144,42 @@ button:hover {
 .h1-ceg {
   animation: bounceIn 1.2s ease-in-out forwards;
 }
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 2.5rem; /* Adjust font size to fit */
+    white-space: normal; /* Allow the text to wrap */
+    word-break: break-word; /* Ensure words break to fit within the container */
+  }
+
+  .h1-ceg {
+    font-size: 1.8rem; /* Adjust font size for mobile */
+  }
+
+  .container {
+    padding: 0 1rem; /* Ensure there’s enough padding for text to fit */
+  }
+
+  .max-w-3xl {
+    max-width: 100%; /* Ensure full width is used on mobile */
+  }
+
+  .mb-6 {
+    margin-bottom: 1rem; /* Adjust margins to fit content */
+  }
+}
+
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 1.75rem; /* Further reduce font size for smaller mobile screens */
+    white-space: normal; /* Allow text to wrap if needed */
+    word-break: break-word; /* Ensure words wrap to fit within the screen */
+  }
+
+  .h1-ceg {
+    font-size: 1.6rem; /* Smaller heading size on small mobile devices */
+  }
+
+  .container {
+    padding: 0 0.5rem; /* Reduce padding to give more room for the text */
+  }
+}

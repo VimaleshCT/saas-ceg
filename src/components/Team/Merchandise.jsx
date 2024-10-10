@@ -126,8 +126,9 @@ const Merchandise = () => {
       img: download12,
       name: "AlexPandiyan B",
       position: "Events,Workshops & Carnivals",
-      instagramLink: "https://instagram.com/example1",
-      linkedinLink: "https://linkedin.com/in/example1",
+      instagramLink:
+        "https://www.instagram.com/a_l_e_x_p_a_n_d_i_y_a_n/profilecard/?igsh=bzMyNmJieDl3MjJu",
+      linkedinLink: "https://in.linkedin.com/in/alex-sakthi-27210625b",
     },
     {
       img: download13,
@@ -147,7 +148,7 @@ const Merchandise = () => {
     },
     {
       img: download15,
-      name: "Karhick Selvan",
+      name: "Karthick Selvan",
       position: "Logistics",
       instagramLink: "https://instagram.com/dracareys_",
       linkedinLink: "https://www.linkedin.com/in/karthick-selvan-424489201",
@@ -163,7 +164,7 @@ const Merchandise = () => {
       img: download17,
       name: "Arul Manisha A",
       position: "HR & Hospitality",
-      instagramLink: "https://instagram.com/example1",
+      instagramLink: "https://instagram.com/arulmanishaaaron ",
       linkedinLink: "https://linkedin.com/in/example1",
     },
     {
@@ -178,15 +179,15 @@ const Merchandise = () => {
       img: download19,
       name: "Sathishkumar",
       position: "HR & Hospitality",
-      instagramLink: "https://instagram.com/example1",
+      instagramLink: "https://www.instagram.com/____sk_the_smartzz____",
       linkedinLink: "https://linkedin.com/in/example1",
     },
     {
       img: download20,
-      name: "Ajay Raj Agarwal",
+      name: "Ajay Raj Agarwal S",
       position: "Marketing",
       instagramLink: "https://instagram.com/sara_aju23",
-      linkedinLink: "https://linkedin.com/in/example1",
+      linkedinLink: "https://www.linkedin.com/in/ajay-raj-agarwal-59aa09254/",
     },
     {
       img: download21,
@@ -205,7 +206,7 @@ const Merchandise = () => {
     },
     {
       img: download23,
-      name: "Sanakaranarayanan S",
+      name: "Sankaranarayanan S",
       position: "Contents",
       instagramLink: "https://instagram.com/_s_a_n_k_a_r_2003",
       linkedinLink: "https://linkedin.com/in/example1",
@@ -235,7 +236,7 @@ const Merchandise = () => {
       img: download27,
       name: "Sujatha M",
       position: "Graphical Design",
-      instagramLink: "https://instagram.com/sujatha_11741",
+      instagramLink: "https://instagram.com/sujatha_1174",
       linkedinLink: "https://www.linkedin.com/in/sujatha-m-088b61279",
     },
     {
@@ -243,7 +244,7 @@ const Merchandise = () => {
       name: "DineshRaja D",
       position: "Permissions & Documentation",
       instagramLink: "https://instagram.com/mr_dinesh_deva",
-      linkedinLink: "https://www.linkedin.com/in/dinesh-raja-73ab32290",
+      linkedinLink: "https://www.linkedin.com/in/dineshraja-d-73ab32290",
     },
   ];
 

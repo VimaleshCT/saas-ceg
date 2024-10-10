@@ -28,23 +28,39 @@ const Header = () => {
   };
 
   const handleClick = () => {
-    if (!openNavigation) return;
-
-    enablePageScroll();
-    setOpenNavigation(false);
+    if (openNavigation) {
+      enablePageScroll();
+      setOpenNavigation(false);
+    }
   };
 
   return (
-    <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
+    <header
+      className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <div className="block w-[12rem] xl:mr-8" to="/home">
+        {/* Logo */}
+        <div className="block w-[12rem] xl:mr-8">
           <img src={logo} alt="Logo" />
         </div>
 
+        {/* Hamburger icon for mobile */}
+        <button
+          className="ml-auto lg:hidden" /* Hidden on large screens */
+          onClick={toggleNavigation}
+          aria-label="Toggle navigation"
+        >
+          {/* Hamburger Icon */}
+          <div className={`hamburger ${openNavigation ? "open" : ""}`}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+
+        {/* Navigation links */}
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
@@ -55,14 +71,13 @@ const Header = () => {
               <Li
                 key={item.id}
                 to={item.url}
-                aria-current="page"
                 smooth={true}
                 spy={true}
-                onClick={handleClick}
+                onClick={handleClick} /* Close on link click */
                 className={`block relative font-code text-2xl uppercase transition-colors hover:text-white hover:glitter-effect ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 xl:px-12 cursor-pointer`}
-                style={{ color: "#ffd700" }} // Default color: Gold
+                } px-6 py-6 md:py-8 lg:text-xs lg:font-semibold lg:leading-5 xl:px-12 cursor-pointer`}
+                style={{ color: "#ffd700" }} /* Default text color */
               >
                 {item.title}
               </Li>
@@ -70,17 +85,12 @@ const Header = () => {
           </div>
         </nav>
 
+        {/* Contact button (shown only on desktop) */}
         <Li to="contact" smooth={true} spy={true} className="hidden lg:flex">
           <Button className="neon-button">Contact Us</Button>
         </Li>
-
-        <Button
-          className="ml-auto lg:hidden"
-          px="px-3"
-          onClick={toggleNavigation}
-        ></Button>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -17,9 +17,11 @@
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   transition: color 0.3s ease;
+  font-size: 1.5rem; /* Adjusted for responsive scaling */
 }
+
 .hover\:glitter-effect:hover {
-  color: #194791; /* White text color on hover */
+  color: #194791;
 }
 
 .hover\:glitter-effect:hover::before {
@@ -42,7 +44,7 @@
   pointer-events: none;
 }
 
-/* For Neon Button */
+/* Neon Button */
 .neon-button {
   padding: 0.75rem 2rem;
   font-size: 1.125rem;
@@ -54,6 +56,7 @@
   position: relative;
   overflow: hidden;
   z-index: 0;
+  cursor: pointer;
 }
 
 .neon-button::before {
@@ -80,4 +83,137 @@
 .neon-button:hover {
   color: #00b7ff;
   box-shadow: 0 0 15px rgba(0, 183, 255, 0.5), 0 0 50px rgba(0, 183, 255, 0.5);
+}
+
+/* Responsive Adjustments */
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  .hover\:glitter-effect {
+    font-size: 1.25rem; /* Reduce font size for smaller screens */
+  }
+
+  .neon-button {
+    padding: 0.6rem 1.5rem; /* Adjust padding for smaller screens */
+    font-size: 1rem; /* Slightly reduce font size */
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .hover\:glitter-effect {
+    font-size: 1rem; /* Further reduce font size for mobile */
+  }
+
+  .neon-button {
+    padding: 0.5rem 1.2rem; /* Compact padding for mobile */
+    font-size: 0.875rem; /* Further reduce font size */
+  }
+
+  .neon-button:hover {
+    box-shadow: 0 0 10px rgba(0, 183, 255, 0.4), 0 0 25px rgba(0, 183, 255, 0.4); /* Reduce glow size */
+  }
+}
+
+/* General Styling */
+.fixed {
+  position: fixed;
+}
+
+.bg-n-8 {
+  background-color: #1a1a1a;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: inline-block;
+  width: 24px;
+  height: 18px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger span {
+  background-color: #ffd700;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  transition: 0.3s ease-in-out;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 8px;
+}
+
+.hamburger span:nth-child(3) {
+  top: 16px;
+}
+
+/* Open Hamburger Animation */
+.hamburger.open span:nth-child(1) {
+  top: 8px;
+  transform: rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  top: 8px;
+  transform: rotate(-45deg);
+}
+
+/* Hide/Show Mobile Menu */
+nav {
+  transition: opacity 0.5s ease;
+}
+
+nav.hidden {
+  display: none;
+}
+
+nav.flex {
+  display: flex;
+}
+
+/* General Mobile Menu Styling */
+nav.fixed {
+  background-color: rgba(26, 26, 26, 0.95); /* Dark overlay */
+}
+
+.fixed .hamburger {
+  z-index: 101; /* Ensure hamburger is above the menu */
+}
+
+/* Responsive Adjustments */
+@media (min-width: 1024px) {
+  .ml-auto {
+    margin-left: auto;
+  }
+
+  /* Hide the hamburger menu icon on large screens */
+  .lg\:hidden {
+    display: none;
+  }
+
+  /* Show full navigation on large screens */
+  nav.lg\:flex {
+    display: flex !important;
+  }
+
+  nav.lg\:static {
+    position: static !important;
+    top: 0 !important;
+  }
+
+  nav.lg\:mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
