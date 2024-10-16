@@ -5,6 +5,7 @@ import Section from "../Section";
 import { useRef } from "react";
 import { Link as Li } from "react-scroll";
 import "./Hero.css";
+import saas from "../../../public/static/assets/SAAS_silver.png";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -12,16 +13,16 @@ const Hero = () => {
   return (
     <section id="hero">
       <ul class="circles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
+        <li><img src={saas} alt="circle" /></li>
       </ul>
       <Section
         className="pt-[12rem] -mt-[5.25rem]"

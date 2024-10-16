@@ -26,7 +26,7 @@ import download20 from "../../../public/static/assets/team/Ajay_Marketing1.jpg";
 import download21 from "../../../public/static/assets/team/Nehavarthini_Marketing Core.jpg";
 import download22 from "../../../public/static/assets/team/Namitha_Sharan_Contents.jpg";
 import download23 from "../../../public/static/assets/team/Sankaranarayanan_Contents.jpeg";
-import download24 from "../../../public/static/assets/team/Vikrant_R_Technical.jpeg";
+import download24 from "../../../public/static/assets/team/Vikrant_R_Technical.jpg";
 import download25 from "../../../public/static/assets/team/Vimalesh_CT_Technical.jpg";
 import download26 from "../../../public/static/assets/team/T_Ponvel_Graphics Design.jpg";
 import download27 from "../../../public/static/assets/team/Sujatha_GDesign.jpg";
