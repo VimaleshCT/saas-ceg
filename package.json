@@ -6,11 +6,10 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
-    "serve": "serve -s dist",
-    "build": "vite build",
     "serve": "vite preview",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -21,6 +20,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/material": "^6.1.0",
+    "animejs": "^3.2.2",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
     "heic2any": "^0.0.4",
@@ -29,10 +29,13 @@
     "react-icons": "^5.3.0",
     "react-just-parallax": "^3.1.16",
     "react-lazy-load-image-component": "^1.6.2",
+    "react-particles": "^2.12.2",
     "react-router-dom": "^6.22.1",
     "react-scroll": "^1.9.0",
+    "react-tsparticles": "^2.12.2",
     "scroll-lock": "^2.1.5",
-    "tailwind-merge": "^2.5.2"
+    "tailwind-merge": "^2.5.2",
+    "tsparticles": "^3.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

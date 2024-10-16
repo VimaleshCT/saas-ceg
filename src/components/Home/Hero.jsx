@@ -4,12 +4,25 @@ import Button from "../Button";
 import Section from "../Section";
 import { useRef } from "react";
 import { Link as Li } from "react-scroll";
+import "./Hero.css";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
 
   return (
     <section id="hero">
+      <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+      </ul>
       <Section
         className="pt-[12rem] -mt-[5.25rem]"
         crosses
@@ -17,6 +30,7 @@ const Hero = () => {
         customPaddings
         id="hero"
       >
+
         <div className="container relative" ref={parallaxRef}>
           <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
             {/* <h1 className="h1 mb-6 font-bold text-6xl text-center text-gradient">
